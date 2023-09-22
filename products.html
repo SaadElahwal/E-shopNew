@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="....." />
+    <meta name="author" content="saad elsayed" />
+    <meta name="keywords" content="webdesign, SEO" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/lib/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/lib/owl.theme.default.css" />
+    <title>E-shop</title>
+    <link rel="stylesheet" href="assets/css/lib/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html"
+        ><img src="assets/images/products_navbar/logo.svg" alt=""
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-category" href="products.html"
+              >men <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-category" href="#">women</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-category" href="#">kids</a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-category">
+        <a href="#"><img src="assets/images/navbar/search.svg" alt="" /></a>
+        <a href="cart.html"
+          ><img src="assets/images/navbar/cart.svg" alt=""
+        /></a>
+        <a href="#"><img src="assets/images/navbar/user.svg" alt="" /></a>
+      </div>
+    </nav>
+    <main>
+      <section class="categories">
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button
+                  class="btn btn-link"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  <h5 class="h-8">PRODUCT TYPE</h5>
+                </button>
+              </h2>
+            </div>
+
+            <div
+              id="collapseOne"
+              class="collapse show"
+              aria-labelledby="headingOne"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                <div class="types">
+                  <input
+                    type="checkbox"
+                    class="cloth-categories"
+                    name="cloth"
+                  />
+                  <label for="cloth">T-Shirts <span>(411)</span></label>
+                </div>
+
+                <div class="types">
+                  <input
+                    type="checkbox"
+                    class="cloth-categories"
+                    name="cloth"
+                  />
+                  <label for="cloth">Sweatshirts <span>(131)</span></label>
+                </div>
+
+                <div class="types">
+                  <input
+                    type="checkbox"
+                    class="cloth-categories"
+                    name="cloth"
+                  />
+                  <label for="cloth">Tank Tops <span>(56)</span></label>
+                </div>
+
+                <div class="types">
+                  <input
+                    type="checkbox"
+                    class="cloth-categories"
+                    name="cloth"
+                  />
+                  <label for="cloth">Dress shirts <span>(8)</span></label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button
+                  class="btn btn-link collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  <h5 class="h-8">PRICE</h5>
+                </button>
+              </h2>
+            </div>
+            <div
+              id="collapseTwo"
+              class="collapse"
+              aria-labelledby="headingTwo"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                <div class="price">
+                  <div class="min-max">
+                    <p class="min">0 usd</p>
+                    <p class="max">500 usd</p>
+                  </div>
+                  <input type="range" min="0" max="500" class="range" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="collection">
+            <p>COLLECTION</p>
+            <img
+              src="assets/images/products_category/arrow-down.svg"
+              height="12"
+              width="12"
+              alt=""
+            />
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button
+                  class="btn btn-link collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  SIZE
+                </button>
+              </h2>
+            </div>
+            <div
+              id="collapseThree"
+              class="collapse"
+              aria-labelledby="headingThree"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                <div class="size">
+                  <p class="xs">XS</p>
+                  <p class="small">S</p>
+                  <p class="medium">M</p>
+                  <p class="large">L</p>
+                  <p class="xl">XL</p>
+                  <p class="xxl">XXl</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="color">
+          <a href="#"><div class="color1"></div></a>
+
+          <a href="#"><div class="color2"></div></a>
+
+          <a href="#"><div class="color3"></div></a>
+
+          <a href="#"><div class="color4"></div></a>
+
+          <a href="#"><div class="color5"></div></a>
+
+          <a href="#"><div class="color6"></div></a>
+        </div>
+      </section>
+
+      <section class="product-view">
+        <div class="container">
+          <div class="above-row">
+            <h2>Men's Tops <span>(133)</span></h2>
+            <p>
+              Show products:
+              <select name="select" id="selection">
+                <option value="1">1</option>
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+              </select>
+            </p>
+            <p>
+              Sort:
+              <select name="popular" id="selection">
+                <option value="popular">popular</option>
+                <option value="Premium">Premium</option>
+              </select>
+            </p>
+          </div>
+          <div class="row">
+            <div class="top1 col-lg-4 col-md-6 col-sm-12 mb-5">
+              <div class="image-box">
+                <a href="product-view.html">
+                  <img
+                    src="assets/images/men's top/product_view.webp"
+                    loading="lazy"
+                    alt=""
+                    width="250"
+                    height="250"
+                /></a>
+                <img
+                  src="assets/images/men's top/heart.svg"
+                  class="heart"
+                  alt=""
+                />
+              </div>
+              <h6>T-Shirt Summer Vibes</h6>
+              <p><span>$89.99</span> <del>$119.99</del></p>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+              <div class="image-box">
+                <a href="product-view2.html"
+                  ><img
+                    src="assets/images/men's top/team_1.webp"
+                    loading="lazy"
+                    alt=""
+                    width="250"
+                    height="250"
+                /></a>
+                <img
+                  src="assets/images/men's top/heart.svg"
+                  class="heart"
+                  alt=""
+                />
+              </div>
+              <h6>Loose Knit 3/4 Sleeve</h6>
+              <p>$119.99</p>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+              <div class="image-box">
+                <a href="product-view.html"
+                  ><img
+                    src="assets/images/men's top/product_view.webp"
+                    loading="lazy"
+                    alt=""
+                    width="250"
+                    height="250"
+                /></a>
+                <img
+                  src="assets/images/men's top/heart.svg"
+                  class="heart"
+                  alt=""
+                />
+              </div>
+              <h6>Basic Slim Fit T-Shirt</h6>
+              <p>$79.99</p>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+              <div class="image-box">
+                <a href="product-view.html"
+                  ><img
+                    src="assets/images/men's top/product_view.webp"
+                    loading="lazy"
+                    alt=""
+                    width="250"
+                    height="250"
+                /></a>
+                <img
+                  src="assets/images/men's top/heart.svg"
+                  class="heart"
+                  alt=""
+                />
+              </div>
+              <h6>Oxford Shirt</h6>
+              <p>79.99</p>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+              <div class="image-box">
+                <a href="product-view2.html"
+                  ><img
+                    src="assets/images/men's top/team_1.webp"
+                    loading="lazy"
+                    alt=""
+                    width="250"
+                    height="250"
+                /></a>
+                <img
+                  src="assets/images/men's top/heart.svg"
+                  class="heart"
+                  alt=""
+                />
+              </div>
+              <h6>Premium Dress Shirt</h6>
+              <p>$119.99</p>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+              <div class="image-box">
+                <a href="product-view.html"
+                  ><img
+                    src="assets/images/men's top/product_view.webp"
+                    loading="lazy"
+                    alt=""
+                    width="250"
+                    height="250"
+                /></a>
+                <img
+                  src="assets/images/men's top/heart.svg"
+                  class="heart"
+                  alt=""
+                />
+              </div>
+              <h6>Patterned Dress Shirt</h6>
+              <p>$79.99</p>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+              <div class="image-box">
+                <a href="product-view.html"
+                  ><img
+                    src="assets/images/men's top/product_view.webp"
+                    loading="lazy"
+                    alt=""
+                    width="250"
+                    height="250"
+                /></a>
+                <img
+                  src="assets/images/men's top/heart.svg"
+                  class="heart"
+                  alt=""
+                />
+              </div>
+              <h6>Oxford Shirt</h6>
+              <p>$79.99</p>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+              <div class="image-box">
+                <a href="product-view2.html"
+                  ><img
+                    src="assets/images/men's top/team_1.webp"
+                    loading="lazy"
+                    alt=""
+                    width="250"
+                    height="250"
+                /></a>
+                <img
+                  src="assets/images/men's top/heart.svg"
+                  class="heart"
+                  alt=""
+                />
+              </div>
+              <h6>Premium Dress Shirt</h6>
+              <p>$119.99</p>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+              <div class="image-box">
+                <a href="product-view.html"
+                  ><img
+                    src="assets/images/men's top/product_view.webp"
+                    loading="lazy"
+                    alt=""
+                    width="250"
+                    height="250"
+                /></a>
+                <img
+                  src="assets/images/men's top/heart.svg"
+                  class="heart"
+                  alt=""
+                />
+              </div>
+              <h6>Patterned Dress Shirt</h6>
+              <p>$79.99</p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+              <div class="image-box">
+                <a href="product-view.html"
+                  ><img
+                    src="assets/images/men's top/product_view.webp"
+                    loading="lazy"
+                    alt=""
+                    width="250"
+                    height="250"
+                /></a>
+                <img
+                  src="assets/images/men's top/heart.svg"
+                  class="heart"
+                  alt=""
+                />
+              </div>
+              <h6>Oxford Shir</h6>
+              <p>$79.99</p>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+              <div class="image-box">
+                <a href="product-view2.html"
+                  ><img
+                    src="assets/images/men's top/team_1.webp"
+                    loading="lazy"
+                    alt=""
+                    width="250"
+                    height="250"
+                  />
+                </a>
+                <img
+                  src="assets/images/men's top/heart.svg"
+                  class="heart"
+                  alt=""
+                />
+              </div>
+              <h6>Premium Dress Shirt</h6>
+              <p>$119.99</p>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+              <div class="image-box">
+                <a href="product-view.html"
+                  ><img
+                    src="assets/images/men's top/product_view.webp"
+                    loading="lazy"
+                    alt=""
+                    width="250"
+                    height="250"
+                /></a>
+                <img
+                  src="assets/images/men's top/heart.svg"
+                  class="heart"
+                  alt=""
+                />
+              </div>
+              <h6>Patterned Dress Shirt</h6>
+              <p>$79.99</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="product-sub">
+        <div class="container">
+          <div class="contain">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <h2>
+                    Subscribe to our newsletter and receive exclusive offers
+                    every week
+                  </h2>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <form>
+                    <input
+                      type="email"
+                      placeholder="Enter Your Email"
+                      id="emaiil"
+                    />
+                    <button class="bg-primary text-light">subscribe</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="e-shop">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 first">
+              <div class="logo">
+                <img
+                  src="assets/images/footer/footer_logo.svg"
+                  alt=""
+                  loading="lazy"
+                />
+              </div>
+              <p>
+                High quality Scandinavian furniture made from eco-friendly
+                materials. Designed for modern, minimalist apartments
+              </p>
+              <div class="img-box">
+                <img
+                  src="assets/images/footer/face.svg"
+                  alt=""
+                  loading="lazy"
+                  class="footer-logo"
+                />
+                <img
+                  src="assets/images/footer/linked.svg"
+                  alt=""
+                  loading="lazy"
+                  class="footer-logo"
+                />
+                <img
+                  src="assets/images/footer/youtube.svg"
+                  alt=""
+                  loading="lazy"
+                  class="footer-logo"
+                />
+                <img
+                  src="assets/images/footer/instagram.svg"
+                  alt=""
+                  loading="lazy"
+                  class="footer-logo"
+                />
+                <img
+                  src="assets/images/footer/twitter.svg"
+                  alt=""
+                  loading="lazy"
+                  class="footer-logo"
+                />
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 second">
+              <div class="logo">
+                <h5>Shopping online</h5>
+              </div>
+              <div>
+                <h6>Order status</h6>
+                <h6>Shipping and delivery</h6>
+                <h6>Returns</h6>
+                <h6>Payment options</h6>
+                <h6>Contact us</h6>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 second">
+              <div class="logo">
+                <h5>Information</h5>
+              </div>
+              <div>
+                <h6>Gift cards</h6>
+                <h6>Find a store</h6>
+                <h6>Newsletter</h6>
+                <h6>Become a member</h6>
+                <h6>Site feedback</h6>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md- col-sm-6 second">
+              <div class="logo">
+                <h5>contact</h5>
+              </div>
+              <div>
+                <h6>store@ukit.com</h6>
+                <h6>hotline: +1131138138</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <p>DESIGN BY Saad Elahwal-© 2023. ALL RIGHTS RESERVED.</p>
+      </footer>
+    </main>
+
+    <script src="assets/js/lib/jquery-3.3.1.slim.min.js"></script>
+    <script src="assets/js/lib/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="assets/js/lib/popper.js"></script>
+    <script src="assets/js/lib/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
